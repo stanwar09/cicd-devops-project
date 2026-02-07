@@ -12,21 +12,20 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Running python app'
-                bat 'python app.py'
+                sh 'python3 app.py'
             }
         }
 
         stage('Docker Build') {
             steps {
-                echo 'Docker stage later'
+                echo 'Docker stage soon'
             }
         }
 
         stage('Deploy') {
             steps {
-                echo 'Deploy stage'
+                echo 'Deploy stage soon'
             }
         }
     }
 }
-S
