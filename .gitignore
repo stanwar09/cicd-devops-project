@@ -1,0 +1,12 @@
+# terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.pem
+
+# python
+__pycache__/
+*.pyc
+
+# vscode
+.vscode/
